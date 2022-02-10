@@ -5,7 +5,7 @@ MD5 hash of the response to STDOUT.
 ## Installation
 Install [Golang 1.17](https://golang.org/doc/install) or higher.
 
-Run `go get github.com/TriAnMan/http-test/...` and `go build github.com/TriAnMan/http-test`
+Run `go install github.com/TriAnMan/http-test@latest` and ``cd `go env GOPATH`/bin``
 
 ## Run
 `./http-test www.yandex.com https://google.com`
